@@ -1,0 +1,20 @@
+/* Сделаем статью похожей на лист бумаги */
+.article, .announcement{
+    background-color: white;
+    padding: 8px 8px 8px 8px;
+    margin-top: 8px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.article p {
+	text-indent: 50px;
+	text-align: justify;
+}
+
+.article h2, .article h3, .article h4, .announcement h3, .announcement h4{
+	text-align: center;
+}
+
+.announcement p{
+	text-align: left;
+}
